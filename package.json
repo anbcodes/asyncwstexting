@@ -1,0 +1,22 @@
+{
+  "name": "asyncwstexting",
+  "version": "0.0.1",
+  "description": "",
+  "private": false,
+  "scripts": {
+    "server": "node server.js",
+    "client": "webpack-dev-server --host=0.0.0.0"
+  },
+  "keywords": [],
+  "author": "anbcodes",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.12.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.2"
+  },
+  "dependencies": {
+    "@anbcodes/asyncws": "file:../ayncws"
+  }
+}
