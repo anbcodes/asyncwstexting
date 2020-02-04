@@ -17,6 +17,6 @@
     "webpack-dev-server": "^3.10.2"
   },
   "dependencies": {
-    "@anbcodes/asyncws": "file:../ayncws"
+    "@anbcodes/asyncws": "^0.0.3"
   }
 }
